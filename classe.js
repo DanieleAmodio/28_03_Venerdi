@@ -29,32 +29,12 @@ for (let i = 0; i < iscritti.length; i++) {
     } else {
         div.innerHTML += `<div>Recapiti non inseriti</div>`;
     }
-      if (isObjectEmpty(iscritto.Recapiti)==false) { 
-          console.log(iscritto.Recapiti.email);
-          div.innerHTML += `<div>${[ ' Cellulare: ' + iscritto.Recapiti.Cellulare , ' Fisso: ' + iscritto.Recapiti.Fisso , ' e-mail: ' + iscritto.Recapiti.email]}</div>`
-        
-      } else {
-         div.innerHTML += `<div>"Recapiti non inseriti"</div>`
-      }
+      
   }
 
 
 
-     /*let controllo = (iscritto.Recapiti.isEmpty)
-     console.log(controllo)
-     if ( controllo ==true) { div.innerHTML += `<div>${iscritto.Recapiti.Cellulare + iscritto.Recapiti.Fisso + iscritto.Recapiti.email}</div>`}*/
-
-     /*let contrec= [iscritto.Recapiti]
-     console.log(contrec)
-     if (Object.keys(iscritti.Recapiti.Cellulare) >0 ) { 
-           if (Object.keys(iscritti.Recapiti.Fisso) >0) {
-              if (Object.keys[iscritti.Recapiti.email] !== 0) {
-               div.innerHTML += `<div>${iscritti.Recapiti.Cellulare + iscritti.Recapiti.Fisso + iscritti.Recapiti.email}</div>`
-              } else {div.innerHTML += `<div>${iscritti.Recapiti.Cellulare + iscritti.Recapiti.Fisso}</div>`} 
-            } else {div.innerHTML += `<div>${iscritti.Recapiti.Cellulare}</div>`}
-     } else{ div.innerHTML += `<div>"Reacapiti non inseriti"</div>`}   */
- 
-
+    
       
     
         
